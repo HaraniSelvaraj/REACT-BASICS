@@ -66,7 +66,7 @@ function App() {
 
 export default App;*/
 
-import { ErrorOutlineSharp } from "@mui/icons-material";
+/*import { ErrorOutlineSharp } from "@mui/icons-material";
 import ErrorBoundary from "./Component/day5/ErrorBoundary";
 
 
@@ -106,7 +106,7 @@ function App() {
 }
 export default App;*/
 
-import React from 'react'
+/*import React from 'react'
 import ComponentLifeCycle from "./Component/day5/ComponentLifeCycle";
 import LifeCycleFunction from "./Component/day5/LifeCycleFunction";
 import TryCatch from "./Component/day5/TryCatch";
@@ -118,4 +118,10 @@ export default function App() {
     <LifeCycleFunction></LifeCycleFunction>
     </div>
   )
+}*/
+import Main from "./Component/Day9/Context/Main";
+function App() {
+  return <Main />;
 }
+
+export default App;
