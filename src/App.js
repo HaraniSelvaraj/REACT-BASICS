@@ -118,10 +118,20 @@ export default function App() {
     <LifeCycleFunction></LifeCycleFunction>
     </div>
   )
-}*/
-import Main from "./Component/Day9/Context/Main";
+}
+/*import Main from "./Component/Day9/Context/Main";
 function App() {
   return <Main />;
 }
 
-export default App;
+export default App;*/
+import React from 'react';
+import Form from './Component/day 10/Form.js';
+export default function App() {
+  return (
+    <div>
+      <h1>hii</h1>
+     <Form></Form>
+    </div>
+  )
+}
